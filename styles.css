@@ -132,7 +132,7 @@ main{
 	margin: 1.2vw;
 	padding: 2.5vw;
 	display: grid;
-	grid-template-columns: repeat(2, var(--card-width));
+	grid-template-columns: repeat(3, var(--card-width));
 	grid-gap: 2.5vw;
 	justify-content: start;
 	align-content: start;
