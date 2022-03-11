@@ -272,10 +272,10 @@ ${won? getAchievement() : ""}Select ok to play again!`))
 function getAchievement()
 {
 	if(scoreCount===deckLength && hintCount===0){
-		return `You played a PERFECT GAME!`;
+		return `You played a PERFECT GAME!\n\n`;
 	}
 	else if(scoreCount===deckLength || hintCount===0){
-		return `You played a NEAR PERFECT GAME!`
+		return `You played a NEAR PERFECT GAME!\n\n`
 	}
 	else{
 		return``;
