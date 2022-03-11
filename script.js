@@ -127,9 +127,11 @@ function flip()
 	}
 	else if(!cardObject.seenHint)
 	{
-		updateHintElement(++hintCount);
-		cardObject.seenHint = true;
-		this.classList.toggle("flipped");
+		if(confirm("Are you sure you want to use a hint?")){
+		  updateHintElement(++hintCount);
+		  cardObject.seenHint = true;
+		  this.classList.toggle("flipped");
+		}
 	}
 }
 
