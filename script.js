@@ -273,12 +273,15 @@ ${won? getAchievement() : ""}Select ok to play again!`))
 
 function getAchievement()
 {
-	if(scoreCount===deckLength && hintCount===0)
-		return `You played a PERFECT GAME!
-
-`;
-	else
+	if(scoreCount===deckLength && hintCount===0){
+		return `You played a PERFECT GAME!`;
+	}
+	else if(scoreCount===deckLength || hintCount===0){
+		return `You played a NEAR PERFECT GAME!`
+	}
+	else{
 		return``;
+	}
 }
 
 function updateCardDropPosition()
