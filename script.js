@@ -120,18 +120,17 @@ function setUpCardDragEventListeners(draggable)
 
 function flip()
 {
-	const cardObject = getCorrespondingCardObject(this.dataset.name);	
+	const cardObject = getCorrespondingCardObject(this.dataset.name);
 	if(cardObject.seenHint || wrongCardObjectsDeck.includes(cardObject))
 	{
 		this.classList.toggle("flipped");
-	} 
-	else if(!cardObject.seenHint && confirm("Do you want to see the hint"))
+	}
+	else if(!cardObject.seenHint)
 	{
 		updateHintElement(++hintCount);
 		cardObject.seenHint = true;
 		this.classList.toggle("flipped");
 	}
-	
 }
 
 function getCorrespondingCardObject(name)
