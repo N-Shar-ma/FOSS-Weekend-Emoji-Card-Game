@@ -26,6 +26,8 @@ let matcher;
 let showName;
 let scoreCount = 0;
 let hintCount = 0;
+let winningsoungd= new Audio('won.mp3');
+let lossingsound =new Audio('lost.mp3');
 
 chooseDeck()
 
@@ -256,8 +258,15 @@ function isDestinationFull()
 	return false;
 }
 
+
+
 function showGameOver(won)
-{
+{    
+	if(won){
+	winningsoung.play();}
+	else{
+		lossingsound.play();
+	}
 	const msg = won? `🏆    You won!    🏆`: `😭    You lost!    😭`;
 	if(confirm(`${msg}
 
