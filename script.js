@@ -274,7 +274,9 @@ function getAchievement()
 	if(scoreCount===deckLength && hintCount===0)
 		return `You played a PERFECT GAME!
 
-`;
+`; else if(scoreCount===deckLength || hintCount===0)
+		return `You played a NEAR PERFECT GAME!\n\n`;
+	
 	else
 		return``;
 }
