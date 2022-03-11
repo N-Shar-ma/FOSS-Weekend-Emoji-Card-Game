@@ -132,7 +132,7 @@ main{
 	margin: 1.2vw;
 	padding: 2.5vw;
 	display: grid;
-	grid-template-columns: repeat(2, var(--card-width));
+	grid-template-columns: repeat(3, var(--card-width));
 	grid-gap: 2.5vw;
 	justify-content: start;
 	align-content: start;
@@ -140,7 +140,7 @@ main{
 	align-items: center;
 	border: 5px solid var(--container-border-color);
 	border-radius: calc(2 * var(--card-border-radius));
-	box-shadow: 5px 5px 10px 5px black;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 #source{
