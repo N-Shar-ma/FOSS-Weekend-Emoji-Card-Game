@@ -26,7 +26,7 @@ let matcher;
 let showName;
 let scoreCount = 0;
 let hintCount = 0;
-let winningsoungd= new Audio('won.mp3');
+let winningsound= new Audio('won.mp3');
 let lossingsound =new Audio('lost.mp3');
 
 chooseDeck()
@@ -263,7 +263,7 @@ function isDestinationFull()
 function showGameOver(won)
 {    
 	if(won){
-	winningsoung.play();}
+	winningsound.play();}
 	else{
 		lossingsound.play();
 	}
