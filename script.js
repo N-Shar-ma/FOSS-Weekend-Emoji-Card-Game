@@ -233,6 +233,9 @@ function checkWin()
 {
 	if(currentCardObjectsDeck.length === 0)
 	{
+		const winAudio = document.getElementById("win_audio");
+		winAudio.play();
+
 		cardDropPosition.remove();
 		showGameOver(true);
 	}
@@ -242,6 +245,9 @@ function checkLoss()
 {
 	if(isDestinationFull())
 	{
+		const loseAudio = document.getElementById("lose_audio");
+		loseAudio.play();
+
 		cardDropPosition.remove();
 		setTimeout(()=>{showGameOver(false)}, 1800);
 	}
