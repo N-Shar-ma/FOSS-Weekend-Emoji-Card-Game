@@ -319,7 +319,104 @@ echo $message;`,
                 seenHint: false
             }
         ]
+    },
+    {
+        name: "picmoji",
+        instructions: "Match the picture with the word or the homophone of the word which the emoji depicts",
+        cards: [
+            {
+                name: "🌊",
+                content: {
+                    imgsrc: "https://images.pexels.com/photos/1802268/pexels-photo-1802268.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                },
+                hint: "SEA / SEE",
+                matchValue: "👀",
+                seenHint: false
+            },
+            {
+                name: "☀️",
+                content: {
+                    imgsrc: "https://geographical.co.uk/media/k2/items/cache/8e4e30c8fc08507de1b0b5afc7d32a85_XL.jpg"
+                },
+                hint: "SUN / SON",
+                matchValue: "👨‍👩‍👦",
+                seenHint: false
+            },
+            {
+                name: "👨🏽",
+                content: {
+                    imgsrc: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                },
+                hint: "MALE / MAIL",
+                matchValue: "✉️",
+                seenHint: false
+            },
+            {
+                name: "🍨",
+                content: {
+                    imgsrc: "https://media.istockphoto.com/photos/ice-cream-balls-in-paper-cup-picture-id1090251878?k=20&m=1090251878&s=612x612&w=0&h=_PwixtXstWg_KFQMquM2ssxEdElzN8udnRF8RkpdSfc="
+                },
+                hint: "DESSERT / DESERT",
+                matchValue: "🏜️",
+                seenHint: false
+            },
+            {
+                name: "👖",
+                content: {
+                    imgsrc: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1b%2F1b%2F1b1bd82b0be7d944a96df0b13dcf23d96b561af5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jeans%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/mobilefullscreen]&zoom=zoom"
+                },
+                hint: "JEANS / GENES",
+                matchValue: "🧬",
+                seenHint: false
+            },
+            {
+                name: "⚽",
+                content: {
+                    imgsrc: "https://cdn.education.com/files/86301_86400/86346/physics-soccer-ball.jpg"
+                },
+                hint: "BALL / BAWL",
+                matchValue: "😭",
+                seenHint: false
+            },
+            {
+                name: "✍🏽",
+                content: {
+                    imgsrc: "https://media.cnn.com/api/v1/images/stellar/prod/200416164101-3-underscored-creative-writing-lead.jpg?q=w_3000,h_1684,x_0,y_0,c_fill"
+                },
+                hint: "WRITE / RIGHT",
+                matchValue: "✅",
+                seenHint: false
+            },
+            {
+                name: "💎",
+                content: {
+                    imgsrc: "https://4cs.gia.edu/wp-content/uploads/2017/05/NewHero_LooseDiamond_700x394.jpg"
+                },
+                hint: "CARAT / CARROT",
+                matchValue: "🥕",
+                seenHint: false
+            },
+            {
+                name: "🎺",
+                content: {
+                    imgsrc: "https://thevault.musicarts.com/wp-content/uploads/2017/08/pexels-photo-164885.jpeg"
+                },
+                hint: "BAND / BANNED",
+                matchValue: "🚫",
+                seenHint: false
+            },
+            {
+                name: "🤝🏽",
+                content: {
+                    imgsrc: "https://www.hubspot.com/hs-fs/hubfs/Untitled%20design-14.png?width=1024&name=Untitled%20design-14.png"
+                },
+                hint: "MEET / MEAT",
+                matchValue: "🥩",
+                seenHint: false
+            }
+        ]
     }
+
 ]
 
 export function getShuffledDeck (category) {

@@ -303,6 +303,8 @@ main{
 	background-color: salmon;
 	transform: rotateY(0deg);
 	justify-content: space-evenly;
+	background-size: cover;
+	background-position: center;
 }
 
 .primary, .secondary{

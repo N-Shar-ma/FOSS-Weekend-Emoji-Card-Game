@@ -97,11 +97,14 @@ function fillInCardDetails(card, cardObject)
 {
 	const primary = card.querySelector(".primary");
 	const secondary = card.querySelector(".secondary");
+	const frontface=card.querySelector(".front-face")
 	const hint = card.querySelector(".hint");
+	frontface.style.backgroundImage="url("+cardObject.content.imgsrc+")"
 	primary.innerText = cardObject.content.primary;
 	secondary.innerText = cardObject.content.secondary;
 	if(!cardObject.content.primary) primary.remove()
 	if(!cardObject.content.secondary) secondary.remove()
+	if(!cardObject.content.imgsrc) frontface.style.backgroundImage="none"
 	hint.innerText = cardObject.hint;
 	card.dataset.name = cardObject.name;
 }
@@ -271,15 +274,12 @@ ${won? getAchievement() : ""}Select ok to play again!`))
 
 function getAchievement()
 {
-	if(scoreCount===deckLength && hintCount===0){
-		return `You played a PERFECT GAME!\n\n`;
-	}
-	else if(scoreCount===deckLength || hintCount===0){
-		return `You played a NEAR PERFECT GAME!\n\n`
-	}
-	else{
+	if(scoreCount===deckLength && hintCount===0)
+		return `You played a PERFECT GAME!
+		
+`;
+	else
 		return``;
-	}
 }
 
 function updateCardDropPosition()
@@ -287,6 +287,8 @@ function updateCardDropPosition()
 	setTimeout(()=>{
 		cardDropPosition.style.display = "flex";
 		cardDropPosition.classList.remove("dragged-over");
+		console.log(category.value)
+		if(category.value==="picmoji") cardDropPosition.querySelector("#matcher").style.fontSize="5.5rem";
 		cardDropPosition.querySelector("#matcher").innerText = getRandomMatcher();
 	}, 2500);
 }
