@@ -319,6 +319,133 @@ echo $message;`,
                 seenHint: false
             }
         ]
+    },
+    {
+        name: "Countries",
+        instructions: "The emoji/s on each card are a clue for different countries in the World. You can flip (click) the card to see an additional hint. Drag and drop a card onto the matching text clue on the right, which will be something that country is famous for in easy mode, and fascinating facts about them in the challenging mode. You can make a maximum of 3 wrong matches.",
+
+        cards: [
+            {
+                name: "China",
+                content: {
+                    primary: "⚡",
+                    secondary: "🥢"
+                },
+                hint: "CO2 Emissions and Renewable Energy",
+                matchValue: "63 Million Pair of Chopsticks are manufactured every single year",
+                seenHint: false
+            },
+            {
+                name: "India",
+                content: {
+                    primary: "🎥",
+                    secondary: "🍭"
+                },
+                hint: "Movies",
+                matchValue: "First Country to refine Sugarcane",
+                seenHint: false
+            },
+            {
+                name: "United States of America",
+                content: {
+                    primary: "👩‍🎓🦹‍♂️",
+                    secondary: "🏴👨‍🎓"
+                },
+                hint: "Nobel Laureates and Getting Killed by Lawnmowers",
+                matchValue: "A high school student designed the National Flag",
+                seenHint: false
+            },
+            {
+                name: "Indonesia",
+                content: {
+                    primary: "🌋",
+                    secondary: "🏝"
+                },
+                hint: "Volcanoes",
+                matchValue: "Undetermined Number of Islands",
+                seenHint: false
+            },
+            {
+                name: "Pakistan",
+                content: {
+                    primary: "🏑",
+                    secondary: "⚽"
+                },
+                hint: "Field Hockey",
+                matchValue: "A city situated in this country produces 40% of world's soccer balls",
+                seenHint: false
+            },
+            {
+                name: "Brazil",
+                content: {
+                    primary: "🗺🏆",
+                    secondary: "😶📵"
+                },
+                hint: "FIFA World Cup Titles",
+                matchValue: "More than 100 uncontacted and isolated tribes",
+                seenHint: false
+            },
+            {
+                name: "Japan",
+                content: {
+                    primary: "🤖",
+                    secondary: "🌏"
+                },
+                hint: "Robots",
+                matchValue: "Earthquakes are common here",
+                seenHint: false
+            },
+            {
+                name: "Philippines",
+                content: {
+                    primary: "📱",
+                    secondary: "👩‍⚕️"
+                },
+                hint: "Social Media Use",
+                matchValue: "About a quarter of overseas nurses come from here",
+                seenHint: false
+            },
+            {
+                name: "Egypt",
+                content: {
+                    primary: "⛰",
+                    secondary: "🍞"
+                },
+                hint: "Pyramids",
+                matchValue: "Bread was invented here",
+                seenHint: false
+            },
+            {
+                name: "Germany",
+                content: {
+                    primary: "🍻",
+                    secondary: "🎓"
+                },
+                hint: "Beer",
+                matchValue: "No Tuition Fees",
+                seenHint: false
+            },
+            {
+                name: "France",
+                content: {
+                    primary: "😍",
+                    secondary: "✈"
+                },
+                hint: "Perfume",
+                matchValue: "Most visited county in the world",
+                seenHint: false
+            },
+            {
+                name: "Italy",
+                content: {
+                    primary: "🍕",
+                    secondary: "🍅"
+                },
+                hint: "Pizza",
+                matchValue: "Tomato is an iconic food here",
+                seenHint: false
+            }
+        ]
     }
 ]
 
