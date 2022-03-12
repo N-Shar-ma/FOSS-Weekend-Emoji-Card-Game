@@ -130,9 +130,11 @@ function flip()
 	}
 	else if(!cardObject.seenHint)
 	{
-		updateHintElement(++hintCount);
-		cardObject.seenHint = true;
-		this.classList.toggle("flipped");
+		if(category.value!="picmoji" || difficultyMode.value!="Easy"){
+		 updateHintElement(++hintCount);
+		 cardObject.seenHint = true;
+		 this.classList.toggle("flipped");
+		}
 	}
 }
 
@@ -287,7 +289,6 @@ function updateCardDropPosition()
 	setTimeout(()=>{
 		cardDropPosition.style.display = "flex";
 		cardDropPosition.classList.remove("dragged-over");
-		console.log(category.value)
 		if(category.value==="picmoji") cardDropPosition.querySelector("#matcher").style.fontSize="5.5rem";
 		cardDropPosition.querySelector("#matcher").innerText = getRandomMatcher();
 	}, 2500);
