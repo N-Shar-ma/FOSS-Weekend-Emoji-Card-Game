@@ -319,6 +319,102 @@ echo $message;`,
                 seenHint: false
             }
         ]
+    },
+    {
+        name: "States and UT",
+        instructions: "The emoji/s on each card are clues for a sport. You can flip (click) the card to see an additional hint. Drag and drop a card onto the matching text clue on the right, which will be the States and UTs name in easy mode, and a fact about the State / UTin the challenging mode. You can make a maximum of 3 wrong matches.",
+        cards: [
+            {
+                name: "Andaman and Nicobar",
+                content: {
+                    primary: "🥚👨"
+                },
+                hint: "Dugong, the gentle sea cow, is the state animal of this UT",
+                matchValue: `Pandunus or Nicobar Breadfruit is a rare fruit found and widely eaten`,
+                seenHint: false
+            },
+            {
+                name: "Odisha",
+                content: {
+                    secondary: "⭕🥘🅰"
+                },
+                hint: "Chilika Lake – A haven for migratory birds",
+                matchValue: `Konark Temple is located here`,
+                seenHint: false
+            },
+            {
+                name: "Nagaland",
+                content: {
+                    secondary: "🐍🏝"
+                },
+                hint: "“Unity” is the motto of this UT",
+                matchValue: `Mithun is the state animal`,
+                seenHint: false
+            },
+            {
+                name: "Karnataka",
+                content: {
+                    primary: "🚗🎭"
+                },
+                hint: "First Private Radio Station is in this state",
+                matchValue: `Largest Coffee Exporter`,
+                seenHint: false
+            },
+            {
+                name: "Punjab",
+                content: {
+                    primary: "🖐🅱"
+                },
+                hint: "Named After Five Rivers",
+                matchValue: `Sikhism Was Founded Here`,
+                seenHint: false
+            },
+            {
+                name: "New Delhi",
+                content: {
+                    primary: "🆕♥"
+                },
+                hint: "Capital of India",
+                matchValue: `Tallest Minaret in the World is here`,
+                seenHint: false
+            },
+            {
+                name: "Sikkim",
+                content: {
+                    secondary: "😷👘"
+                },
+                hint: "Least populous state of India",
+                matchValue: `India’s first fully organic state`,
+                seenHint: false
+            },
+            {
+                name: "Bihar",
+                content: {
+                    primary: "🅱📿"
+                },
+                hint: "The Birthplace Of Jainism And Buddhism",
+                matchValue: `Houses The Oldest University`,
+                seenHint: false
+            },
+            {
+                name: "Assam",
+                content: {
+                    primary: "𓃘🥭"
+                },
+                hint: "World’s Largest River Island “Majuli”",
+                matchValue: `World’s biggest weaving village “Sualkuchi”`,
+                seenHint: false
+            },
+            {
+                name: "Chhattisgarh",
+                content: {
+                    primary: "3️⃣6️⃣🏡"
+                },
+                hint: "The Niagara Falls of India is here",
+                matchValue: `Bastar is located here`,
+                seenHint: false
+            }
+        ]
     }
 ]
 
