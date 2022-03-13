@@ -319,7 +319,107 @@ echo $message;`,
                 seenHint: false
             }
         ]
+    },
+    {
+        name: "Taylor Swift",
+        instructions: "The emoji/s on each card are a clue for a album of Taylor Swift. You can flip (click) the card to see an additional hint. Drag and drop a card onto the matching text clue on the right. You can make a maximum of 3 wrong matches.",
+        cards: [
+            {
+                name: "Evermore",
+                content: {
+                    primary: "🍾"
+                },
+                hint: "Champagne Problems",
+                matchValue: `Gold Rush`,
+                seenHint: false
+            },
+            {
+                name: "Lover",
+                content: {
+                    secondary: "🌹"
+                },
+                hint: "Heart",
+                matchValue: `Archer!`,
+                seenHint: false
+            },
+            {
+                name: "Reputation",
+                content: {
+                    secondary: "🎸"
+                },
+                hint: "Look what you made me do",
+                matchValue: `Ready for it`,
+                seenHint: false
+            },
+            {
+                name: "Red",
+                content: {
+                    primary: "🍎"
+                },
+                hint: "22",
+                matchValue: `All too Well`,
+                seenHint: false
+            },
+            {
+                name: "Fearless",
+                content: {
+                    primary: "🌊"
+                },
+                hint: "White Horse",
+                matchValue: `15`,
+                seenHint: false
+            },
+            {
+                name: "Beautiful Eyes",
+                content: {
+                    primary: "👀 "
+                },
+                hint: `Teardrops on my Guitar`,
+                seenHint: false
+            },
+            {
+                name: "Speak Now",
+                content: {
+                    primary: "🗣"
+                },
+                hint: `Back to December`,
+                seenHint: false
+            },
+            {
+                name: "Archer",
+                content: {
+                    primary: "🎯"
+                },
+                hint: `Shawn Mendes`,
+                seenHint: false
+            },
+            {
+                name: "Red",
+                content: {
+                    primary: "🔴"
+                },
+                hint: `Danger`,
+                seenHint: false
+            },
+            {
+                name: "Blank Space",
+                content: {
+                    primary: "⬜"
+                },
+                hint: `Empty`,
+                seenHint: false
+            },
+            {
+                name: "1989",
+                content: {
+                    primary: "  📅"
+                },
+                hint: `Date`,
+                seenHint: false
+            }
+        ]
     }
+
 ]
 
 export function getShuffledDeck (category) {
