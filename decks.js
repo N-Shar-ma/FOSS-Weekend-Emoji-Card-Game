@@ -319,6 +319,103 @@ echo $message;`,
                 seenHint: false
             }
         ]
+    },
+    {
+        name: "Rock Bands",
+        instructions: "The emoji/s on each card are a clue for an English Rock Band (Preferably old). You can flip (click) the card to see an additional hint. Drag and drop a card onto the matching text clue on the right, which will be the rock band name in easy mode, and name of some band members in the challenging mode. You can make a maximum of 3 wrong matches.",
+        cards: [
+            {
+                name: "Guns N' Roses",
+                content: {
+                    secondary: "🔫🌹"
+                },
+                hint: "Commonly known as the GnR",
+                matchValue: "Lead singer - Axl Rose\nLead guitarist - Slash",
+                seenHint: false
+            },
+            {
+                name: "Queen",
+                content: {
+                    primary: "👑"
+                },
+                hint: "Bohemian Rhapsody",
+                matchValue: "Lead singer - Freddie Mercury\nLead guitarist - Brian May",
+                seenHint: false
+            },
+            {
+                name: "The Beatles",
+                content: {
+                    primary: "🐞"
+                },
+                hint: "Started off in 1960s, Made rock music popular all over the world",
+                matchValue: "John Lennon\nPaul McCartney",
+                seenHint: false
+            },
+            {
+                name: "Green Day",
+                content: {
+                    secondary: "💚📆"
+                },
+                hint: "American rock band that infused the raw power of punk with a melodic pop sensibility",
+                matchValue: "Singer: Billie Joe Armstrong\nBassist: Mike Dirnt",
+                seenHint: false
+            },
+            {
+                name: "Eagles",
+                content: {
+                    primary: "🦅"
+                },
+                hint: "A band in which every member can sing\nFamous song hits like Hotel California",
+                matchValue: "Glenn Frey\nDon Henley",
+                seenHint: false
+            },
+            {
+                name: "Deep Purple",
+                content: {
+                    secondary: "💜💜"
+                },
+                hint: "Smoke on the water - as some guitarists would say the hardest intro to play (pun intended), yet very melodic and catchy",
+                matchValue: "Singer - David Coverdale\nGuitarist - Ritchie Blackmore",
+                seenHint: false
+            },
+            {
+                name: "Kiss",
+                content: {
+                    primary: "😘"
+                },
+                hint: "I wanna Rock and roll all nightttt",
+                matchValue: "Singer - Paul Stanley\nGuitarist - Ace Frehley",
+                seenHint: false
+            },
+            {
+                name: "Black Sabbath",
+                content: {
+                    secondary: "⚫🛀"
+                },
+                hint: "A hard rock band",
+                matchValue: "Singer - Ozzy Osbourne\nGuitarist - Tony Iommi",
+                seenHint: false
+            },
+            {
+                name: "AC / DC",
+                content: {
+                    secondary: "⚡💡"
+                },
+                hint: "An Australian hard rock, blues rock, and heavy metal band\nAlso, JEE students have studied this topic in physics",
+                matchValue: "Singer - Bon Scott\nGuitarist - Angus Young",
+                seenHint: false
+            },
+            {
+                name: "Red Hot Chili Peppers",
+                content: {
+                    primary: "🔴",
+                    secondary: "🔥🌶"
+                },
+                hint: "Their music incorporates elements of alternative rock, funk, punk rock and psychedelic rock",
+                matchValue: "Singer - Anthony Kiedis\nGuitarist - John Frusciante",
+                seenHint: false
+            },
+        ]
     }
 ]
 
