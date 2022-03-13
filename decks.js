@@ -319,6 +319,112 @@ echo $message;`,
                 seenHint: false
             }
         ]
+    },
+    {
+        name: "Cartoon Characters",
+        instructions: "The emoji/s on each card are a clue for a hero from the Marvel universe. You can flip (click) the card to see an additional hint. Drag and drop a card onto the matching text clue on the right, which will be the superhero's alias in easy mode, and their real name in the challenging mode. You can make a maximum of 3 wrong matches.",
+        cards: [
+            {
+                name: "Doraemon",
+                content: {
+                    primary: "🔦 "
+                },
+                hint: "Gadget Master ",
+                matchValue: `Saviour`,
+                seenHint: false
+            },
+            {
+                name: "Nobita",
+                content: {
+                    secondary: "0️⃣"
+                },
+                hint: "loves to sleep gets 0 marks",
+                matchValue: `gets 0 but is a hero`,
+                seenHint: false
+            },
+            {
+                name: "Shizuka",
+                content: {
+                    secondary: "🚺"
+                },
+                hint: "Helps Nobita",
+                matchValue: `Loves pink`,
+                seenHint: false
+            },
+            {
+                name: "Gian",
+                content: {
+                    primary: "🎤"
+                },
+                hint: "Sings Bad",
+                matchValue: `Bullies Nobita`,
+                seenHint: false
+            },
+            {
+                name: "Sunio",
+                content: {
+                    primary: "🚗"
+                },
+                hint: "Has many tools",
+                matchValue: `spoiled kid`,
+                seenHint: false
+            },
+            {
+                name: "Dekisugi",
+                content: {
+                    primary: "📚"
+                },
+                hint: "Studious Kiddo",
+                matchValue: `studies a lot`,
+                seenHint: false
+            },
+            {
+                name: "Shinchan",
+                content: {
+                    secondary: "😂"
+                },
+                hint: "pyara pyara",
+                matchValue: `funny kid`,
+                seenHint: false
+            },
+            {
+                name: "TOM",
+                content: {
+                    primary: "😿"
+                },
+                hint: "Cat OP",
+                matchValue: `always loses by a mouse`,
+                seenHint: false
+            },
+            {
+                name: "Jerry",
+                content: {
+                    primary: "🧀 "
+                },
+                hint: "Loves Cheese",
+                matchValue: `Always Wins`,
+                seenHint: false
+            },
+            {
+                name: "Chota Bheem",
+                content: {
+                    primary: "🌕"
+                },
+                hint: "Love Laddos",
+                matchValue: `Fights back Dholakpur`,
+                seenHint: false
+            },
+            {
+                name: "Motu",
+                content: {
+                    primary: "🥟"
+                },
+                hint: "Loves Samosa",
+                matchValue: `Fat Op`,
+                seenHint: false
+            }
+        ]
+
     }
 ]
 
